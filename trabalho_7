@@ -124,7 +124,7 @@ module sinal (
 
     assign Subtracao5 = Multiplicacao1 - Multiplicacao2;
 
-    assign sinal = (Subtracao5 >= 0) ? 1 : 0; //==== Verifica se o resultado da ultima multiplicação é maior ou igual a zero e retornar o sinal 1 ou 0.
+    assign sinal = (Subtracao5 >= 0) ? 1 : 0;
 
 endmodule
 
